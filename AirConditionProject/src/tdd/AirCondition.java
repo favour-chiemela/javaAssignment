@@ -1,5 +1,6 @@
 package tdd;
 public class AirCondition{
+
     public AirCondition() {
     }
 
@@ -22,10 +23,10 @@ public class AirCondition{
     }
 
     public int checkDecreasedTemperature() {
-     return 16;
+        return 16;
+
     }
-    public void TemperatureBeyond30() {
-        boolean temperature;
-        if (temperature > )
+
+    public void increaseTemperature(){
     }
-    }
+}

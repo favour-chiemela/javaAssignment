@@ -85,9 +85,5 @@ public class AccountTest {
         balance = malikAccount.getBalance();
         assertEquals(2500, balance);
 
-
-  
-
-
     }
 }

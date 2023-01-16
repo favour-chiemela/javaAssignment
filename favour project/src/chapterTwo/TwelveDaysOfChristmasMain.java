@@ -1,8 +1,5 @@
 package chapterTwo;
 
-import tdd.TwelveDaysOfChristmas;
-import tdd.TwelveDaysOfChristmasTest;
-
 public class TwelveDaysOfChristmasMain{
     private static int day;
     private static String a;

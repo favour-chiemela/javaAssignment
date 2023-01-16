@@ -1,5 +1,6 @@
 package tdd;
 
+import chapterTwo.TwelveDaysOfChristmas;
 import org.junit.jupiter.api.Test;
 
 public class TwelveDaysOfChristmasTest{
@@ -11,7 +12,7 @@ public class TwelveDaysOfChristmasTest{
     public String getFirstVerse(){
         TwelveDaysOfChristmas.getFirstVerse();
         return TwelveDaysOfChristmas.getFirstVerse();
-    }
+}
     @Test
     public String getSecondVerse(){
         TwelveDaysOfChristmas.getSecondVerse();

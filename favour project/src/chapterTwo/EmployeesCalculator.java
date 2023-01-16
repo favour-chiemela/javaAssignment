@@ -1,4 +1,4 @@
-package tdd;
+package chapterTwo;
 
 import java.util.Scanner;
 

@@ -64,8 +64,9 @@ public class AirConditionTest{
         AirCondition airCondition = new AirCondition();
         //given that my ac is on
         airCondition.isOn();
-        //when i increase temperature beyond
-        airCondition.TemperatureBeyond30();
+        //when i increase temperature beyond 30
+
+
 
 
     }
