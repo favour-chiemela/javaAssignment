@@ -144,7 +144,7 @@ public class Nokia {
                 Enter 9-> Voice mailbox number
                 Enter 10-> Service command editor
                 """);
-        int userInput = input.nextInt();
+        userInput = input.nextInt();
         switch (userInput) {
             case 1:
                 System.out.println("Type your message");
@@ -518,27 +518,31 @@ public class Nokia {
 
 
     public void messageCondition() {
-        System.out.println("Enter 1 to go back to message menu or 2 for main menu");
+        System.out.println("Enter 1 to go back to message,2 for menu,5 to exit");
         userInput = input.nextInt();
         if (userInput == 1) {
             messageMenu();
         } else if (userInput == 2) {
             System.out.println(displayMenu());
             selectMenu();
+        }else if (userInput == 5){
+            System.out.println("Thank you");
         } else {
             System.out.println("Invalid input");
         }
     }
 
     public void phoneBookCondition() {
-        System.out.println("Enter 1 to go back to Phone book menu or 2 for main menu");
+        System.out.println("Enter 1 to go back to Phonebook,2 for main,5 to exit");
         userInput = input.nextInt();
         if (userInput == 1) {
             phoneBook();
         } else if (userInput == 2) {
             System.out.println(displayMenu());
             selectMenu();
-        } else {
+        } else if (userInput == 5){
+            System.out.println("Thank you");
+    } else {
             System.out.println("Invalid input");
         }
 
@@ -546,61 +550,75 @@ public class Nokia {
     }
 
     public void chatCondition() {
-        System.out.println("Enter 1 to go back to chat menu or 2 for main menu");
+        System.out.println("Enter 1 to go back to chat,2 for main menu,5 to exit");
         userInput = input.nextInt();
         if (userInput == 1) {
             chatCondition();
         } else if (userInput == 2) {
             System.out.println(displayMenu());
             selectMenu();
+        } else if (userInput == 5){
+            System.out.println("Thank you");
         } else {
             System.out.println("Invalid input");
         }
     }
 
     public void callRegisterCondition() {
-        System.out.println("Enter 1 to go back to call reg menu or 2 for main");
+        System.out.println("Enter 1 to go back to callReg,2 for main,5 to exit");
         userInput = input.nextInt();
         if (userInput == 1) {
             callRegMenu();
         } else if (userInput == 2) {
             System.out.println(displayMenu());
+            selectMenu();
+        } else if (userInput == 5){
+            System.out.println("Thank you");
         } else {
             System.out.println("Invalid input");
         }
     }
 
     public void toneMenuCondition() {
-        System.out.println("Enter 1 to go back to tone menu or 2 for main");
+        System.out.println("Enter 1 to go back to tone,2 for main 5 to exit");
         userInput = input.nextInt();
         if (userInput == 1) {
             TonesMenu();
         } else if (userInput == 2) {
             System.out.println(displayMenu());
+            selectMenu();
+        } else if (userInput == 5){
+            System.out.println("Thank you");
         } else {
             System.out.println("Invalid input");
         }
     }
 
     public void gameMenuCondition() {
-        System.out.println("Enter 1 to go back to game menu or 2 for main");
+        System.out.println("Enter 1 to go back to game,2 for main,5 to exit");
         userInput = input.nextInt();
         if (userInput == 1) {
             Games();
         } else if (userInput == 2) {
             System.out.println(displayMenu());
+            selectMenu();
+        } else if (userInput == 5){
+            System.out.println("Thank you");
         } else {
             System.out.println("Invalid input");
         }
     }
 
     public void calculatorMenuCondition() {
-        System.out.println("Enter 1 to go back to calculator menu or 2 for main");
+        System.out.println("Enter 1 to go back to calculator,2 for main,5 to exit");
         userInput = input.nextInt();
         if (userInput == 1) {
             calculator();
         } else if (userInput == 2) {
             System.out.println(displayMenu());
+            selectMenu();
+        } else if (userInput == 5){
+            System.out.println("Thank you");
         } else {
             System.out.println("Invalid input");
         }
@@ -608,24 +626,30 @@ public class Nokia {
     }
 
     public void reminderMenuCondition() {
-        System.out.println("Enter 1 to go back to reminder menu or 2 for main");
+        System.out.println("Enter 1 to go back to reminder,2 for main,5 to exit");
         userInput = input.nextInt();
         if (userInput == 1) {
             Reminder();
         } else if (userInput == 2) {
             System.out.println(displayMenu());
+            selectMenu();
+        } else if (userInput == 5){
+            System.out.println("Thank you");
         } else {
             System.out.println("Invalid input");
         }
     }
 
     public void clockMenuCondition() {
-        System.out.println("Enter 1 to go back to clock menu or 2 for main");
+        System.out.println("Enter 1 to go back to clock,2 for main,5 to exit");
         userInput = input.nextInt();
         if (userInput == 1) {
             clock();
         } else if (userInput == 2) {
             System.out.println(displayMenu());
+            selectMenu();
+        } else if (userInput == 5){
+            System.out.println("Thank you");
         } else {
             System.out.println("Invalid input");
         }
